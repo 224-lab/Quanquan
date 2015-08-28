@@ -11,7 +11,7 @@ class IndexController extends Controller{
     }
    
     //photos
-	public function photos(){
+	public function artists(){
 		$Form = M('Artists');
 		//读取数据
 		$list = $Form->limit(12)->select();
