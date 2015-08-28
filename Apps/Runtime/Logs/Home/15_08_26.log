@@ -1,0 +1,2488 @@
+[ 2015-08-26T23:00:26+08:00 ] 127.0.0.1 /quanquan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quanquan.quanquan_data' doesn't exist
+
+[ 2015-08-26T23:00:30+08:00 ] 127.0.0.1 /quanquan/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quanquan.quanquan_data' doesn't exist
+
+[ 2015-08-26T23:00:37+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `quanquan_photos` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `quanquan_photos` LIMIT 10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2015-08-26T23:05:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `quanquan_photos` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `quanquan_photos` LIMIT 10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2015-08-26T23:05:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/$vo.artist_main_image_url/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:05:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+SQL: SHOW COLUMNS FROM `quanquan_photos` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `quanquan_photos` LIMIT 10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2015-08-26T23:05:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/$vo.artist_main_image_url/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:05:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `quanquan_photos` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `quanquan_photos` LIMIT 10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2015-08-26T23:05:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/$vo.artist_main_image_url/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:05:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `quanquan_photos` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `quanquan_photos` LIMIT 10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+NOTIC: [8] Undefined index: artist_name F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 15 行.
+NOTIC: [8] Undefined index: artist_text F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 18 行.
+NOTIC: [8] Undefined index: artist_first_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 22 行.
+NOTIC: [8] Undefined index: artist_second_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 23 行.
+NOTIC: [8] Undefined index: artist_third_image_url F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2015-08-26T23:05:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/$vo.artist_main_image_url/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+SQL: SHOW COLUMNS FROM `quanquan_artists` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `quanquan_artists` LIMIT 12   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/$vo.artist_main_image_url/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002802s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001997s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002351s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002126s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004867s ]
+
+[ 2015-08-26T23:05:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005132s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001670s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003010s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000245s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002948s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `quanquan_artists` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `quanquan_artists` LIMIT 12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001460s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006668s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001925s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013997s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+
+[ 2015-08-26T23:05:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000292s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002474s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005860s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004088s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009660s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004782s ]
+
+
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005537s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003497s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `quanquan_artists` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `quanquan_artists` LIMIT 12   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001895s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/$vo.artist_main_image_url/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003252s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002626s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001662s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001837s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001602s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+
+[ 2015-08-26T23:05:59+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002003s ]
+
+[ 2015-08-26T23:06:00+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+
+[ 2015-08-26T23:06:00+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001687s ]
+
+[ 2015-08-26T23:06:00+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+
+[ 2015-08-26T23:06:00+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001999s ]
+
+[ 2015-08-26T23:06:00+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+
+[ 2015-08-26T23:06:00+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003257s ]
+
+[ 2015-08-26T23:06:00+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+
+[ 2015-08-26T23:06:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `quanquan_artists` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `quanquan_artists` LIMIT 12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2015-08-26T23:06:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+
+[ 2015-08-26T23:06:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/$vo.artist_main_image_url/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004186s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002290s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001707s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002528s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009478s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002146s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001622s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004452s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+
+[ 2015-08-26T23:06:13+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `quanquan_artists` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `quanquan_artists` LIMIT 12   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/$vo.artist_main_image_url/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002419s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004548s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001746s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002245s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002692s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+
+[ 2015-08-26T23:07:12+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2015-08-26T23:09:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `quanquan_artists` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `quanquan_artists` LIMIT 12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2015-08-26T23:09:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/$vo.artist_main_image_url/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:09:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002677s ]
+
+[ 2015-08-26T23:09:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2015-08-26T23:09:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+
+[ 2015-08-26T23:09:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+
+[ 2015-08-26T23:09:57+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003358s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001997s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001688s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003695s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+
+[ 2015-08-26T23:09:58+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002022s ]
+
+[ 2015-08-26T23:13:03+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `quanquan_artists` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `quanquan_artists` LIMIT 12   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2015-08-26T23:13:03+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+
+[ 2015-08-26T23:13:03+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-08-26T23:13:03+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003475s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020758s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001963s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002250s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002183s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025383s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001806s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003189s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/$vo.artist_main_image_url/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008846s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+
+[ 2015-08-26T23:13:04+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+
+[ 2015-08-26T23:40:21+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `quanquan_artists` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `quanquan_artists` LIMIT 12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_href F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: phpto_album F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+NOTIC: [8] Undefined index: photo_title F:\Code\php\Quanquan\Apps\Runtime\Cache\Home\cc86e8a434cc7e16708f424e1873c4dc.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `quanquan_artists` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `quanquan_artists` LIMIT 12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001424s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/$vo.artist_main_image_url/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+ERR: 非法操作:$vo.artist_main_image_url
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001478s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001579s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003659s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012610s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-08-26T23:40:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `quanquan_artists` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `quanquan_artists` LIMIT 12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist1.jpg/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006743s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist11.jpg/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004286s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist3.jpg/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist4.jpg/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist2.jpg/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004198s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2015-08-26T23:41:16+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist5.jpg/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist6.jpg/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002687s ]
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist7.jpg/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist8.jpg/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002583s ]
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist10.jpg/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+
+[ 2015-08-26T23:41:17+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist9.jpg/%3E%3C/div%3E%20%20%20%20%20%20%20%20%3Cdiv%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/photos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `quanquan_artists` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `quanquan_artists` LIMIT 12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004327s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001620s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/10/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/11/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001257s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/2/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/3/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/1/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+
+[ 2015-08-26T23:41:39+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/5/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/6/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002265s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002298s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/8/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/7/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/9/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/artist10.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+
+[ 2015-08-26T23:41:40+08:00 ] 127.0.0.1 /quanquan/index.php/home/index/__PUBLIC__/artist/4/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+

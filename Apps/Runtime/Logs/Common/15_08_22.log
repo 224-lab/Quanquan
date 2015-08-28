@@ -1,0 +1,12 @@
+[ 2015-08-22T03:01:05+08:00 ] 127.0.0.1 /Quanquan/index.php/=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+ERR: 无法加载模块:=
+
+[ 2015-08-22T03:06:56+08:00 ] 127.0.0.1 /Quanquan/index.php/=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+ERR: 无法加载模块:=
+
