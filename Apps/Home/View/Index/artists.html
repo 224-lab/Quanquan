@@ -1,34 +1,45 @@
+<load href='__PUBLIC__/Css/artists.css' />
+<load href='__PUBLIC__/Js/responsive-nav.js' />
 <div id="page-wrapper" class="site">
 	<div class="b-main" role="main">
 		<div class="Artmenu">
 			<nav class="nav-collapse">
 				<ul>
 					<volist name="list" id="vo">
-						<li><a href="#artist{$vo.id}" data-scroll>
-							{$vo.artist_name}
-						</a></li>
+						<if condition="$vo.id eq 1">
+							<li class="active">
+								<a  href="#artist{$vo.id}" data-scroll>{$vo.artist_name}</a>
+							</li>
+						<else /> 
+							<li>
+								<a href="#artist{$vo.id}" data-scroll>{$vo.artist_name}</a>
+							</li>
+						</if>
 					</volist>
 				</ul>
 			</nav>
-				<volist name="list" id="vo">
-					<section id="artist{$vo.id}">
-						<div class="starImg">
-							<img src="__PUBLIC__/{$vo.artist_main_image_url}" /></div>
-								       	 	<div class="starName">
-							<p>{$vo.artist_name}</p>
-						</div>
-						<div class="starIntro">
-							<p>{$vo.artist_text}</p>
-						</div>
-							<div class="fuckpng">
-								<img src="__PUBLIC__/{$vo.artist_first_image_url}" />
-								<img src="__PUBLIC__/{$vo.artist_second_image_url}" />
-								<img src="__PUBLIC__/{$vo.artist_third_image_url}" />
-							</div>
-						</div>
-					</section>
-					</volist>
-
 		</div>
+		<volist name="list" id="vo">
+			<section id="artist{$vo.id}">
+				<div class="starImg">
+					<img src="__PUBLIC__/{$vo.artist_main_image_url}" />
+				</div>
+				<div class="starName">
+					<p>{$vo.artist_name}</p>
+				</div>
+				<div class="starIntro">
+					<p>{$vo.artist_text}</p>
+				</div>
+					<div class="fuckpng">
+						<img src="__PUBLIC__/{$vo.artist_first_image_url}" />
+						<img src="__PUBLIC__/{$vo.artist_second_image_url}" />
+						<img src="__PUBLIC__/{$vo.artist_third_image_url}" />
+					</div>
+				</div>
+			</section>
+		</volist>
 	</div>
 </div>
+<load href='__PUBLIC__/Js/fastclick.js' />
+<load href='__PUBLIC__/Js/scroll.js' />
+<load href='__PUBLIC__/Js/fixed-responsive-nav.js' />
