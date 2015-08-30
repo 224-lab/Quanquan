@@ -15,9 +15,7 @@ class IndexController extends Controller{
 		$Form = M('Artists');
 		//读取数据
 		$list = $Form->limit(12)->select();
-		$title = '藝人介紹';
 		$this->assign('list',$list);
-		$this->assign('title',$title);
 		$this->display();
 	}
 }
