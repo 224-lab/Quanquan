@@ -27,8 +27,8 @@ CREATE TABLE IF NOT EXISTS `quanquan_artists`(
 `artist_second_image_url`varchar(255) ,
 `artist_third_image_url`varchar(255) ,
 `artist_index` int(8) NOT NULL,
-`artist_bgColor` varchar(15),
-`artist_fontColor` varchar(15),
+`artist_bg_color` varchar(15),
+`artist_font_color` varchar(15),
 PRIMARY KEY (`id`)
 )ENGINE=MyISAM DEFAULT CHARSET="utf8";
 
@@ -50,7 +50,7 @@ PRIMARY KEY (`id`)
 
 
 /*Artists_insert*/
-INSERT INTO `quanquan_artists`(`artist_index`,`artist_bgColor`,`artist_fontColor`,`artist_name`,`artist_text`,`artist_main_image_url`,`artist_first_image_url`,`artist_second_image_url`,`artist_third_image_url`) VALUES
+INSERT INTO `quanquan_artists`(`artist_index`,`artist_bg_color`,`artist_font_color`,`artist_name`,`artist_text`,`artist_main_image_url`,`artist_first_image_url`,`artist_second_image_url`,`artist_third_image_url`) VALUES
 ('1','#ffffff','#68489D','台北音乐人','台北音乐人<br/>
 魔音术士·僵尸艾尔<br/>
 亚洲魔音术士<br/>
