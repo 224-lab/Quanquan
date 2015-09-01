@@ -27,8 +27,8 @@ CREATE TABLE IF NOT EXISTS `quanquan_artists`(
 `artist_second_image_url`varchar(255) ,
 `artist_third_image_url`varchar(255) ,
 `artist_index` int(8) NOT NULL,
-`artist_bg_color` varchar(15),
-`artist_font_color` varchar(15),
+`artist_bgColor` varchar(15),
+`artist_fontColor` varchar(15),
 PRIMARY KEY (`id`)
 )ENGINE=MyISAM DEFAULT CHARSET="utf8";
 
@@ -50,7 +50,7 @@ PRIMARY KEY (`id`)
 
 
 /*Artists_insert*/
-INSERT INTO `quanquan_artists`(`artist_index`,`artist_bg_color`,`artist_font_color`,`artist_name`,`artist_text`,`artist_main_image_url`,`artist_first_image_url`,`artist_second_image_url`,`artist_third_image_url`) VALUES
+INSERT INTO `quanquan_artists`(`artist_index`,`artist_bgColor`,`artist_fontColor`,`artist_name`,`artist_text`,`artist_main_image_url`,`artist_first_image_url`,`artist_second_image_url`,`artist_third_image_url`) VALUES
 ('1','#ffffff','#68489D','台北音乐人','台北音乐人<br/>
 魔音术士·僵尸艾尔<br/>
 亚洲魔音术士<br/>
@@ -101,3 +101,38 @@ Jean-Daniel Mercier谱写原创音乐）融合了现代和古典，具备了50 -
 还曾被多次邀请到个个省市开自己的个人演唱会，<br/>
 坚持自己的信念，加上偶像的背景，相信他们一定可以达成自己的梦想。','WebResources/artist/artist11.jpg','WebResources/artist/11/1.jpg','WebResources/artist/11/2.jpg','WebResources/artist/11/3.jpg');
 
+
+
+
+CREATE TABLE IF NOT EXISTS `quanquan_banner`(
+`id`int(8)unsigned NOT NULL AUTO_INCREMENT,
+`index`int(8)unsigned NOT NULL,
+`flag`int(8)unsigned NOT NULL,		
+/*index图片标志位 
+1:主页banner 2:news左部 3:news右部 
+4:合作企业,5:背景底图,6:全权公司三行字*/
+`banner_image_url`varchar(255) NOT NULL,
+PRIMARY KEY(`id`)
+)ENGINE=MyISAM DEFAULT CHARSET="utf8";
+
+INSERT INTO `quanquan_banner`(`index`,`flag`,`banner_image_url`)VALUES
+(1,1,'WebResources/WebResources/banners/indexBanner/index1.jpg'),
+(2,1,'WebResources/WebResources/banners/indexBanner/index2.jpg'),
+(3,1,'WebResources/WebResources/banners/indexBanner/index3.jpg'),
+(4,1,'WebResources/WebResources/banners/indexBanner/index4.jpg'),
+(5,1,'WebResources/WebResources/banners/indexBanner/index5.jpg'),
+(6,1,'WebResources/WebResources/banners/indexBanner/index6.jpg'),
+(1,2,'WebResources/WebResources/banners/leftBanner/left1.jpg'),
+(2,2,'WebResources/WebResources/banners/leftBanner/left2.jpg'),
+(3,2,'WebResources/WebResources/banners/leftBanner/left3.jpg'),
+(4,2,'WebResources/WebResources/banners/leftBanner/left4.jpg'),
+(5,2,'WebResources/WebResources/banners/leftBanner/left5.jpg'),
+(6,2,'WebResources/WebResources/banners/leftBanner/left6.jpg'),
+(1,3,'WebResources/WebResources/banners/rightBanner/right1.jpg'),
+(2,3,'WebResources/WebResources/banners/rightBanner/right2.jpg'),
+(3,3,'WebResources/WebResources/banners/rightBanner/right3.jpg'),
+(4,3,'WebResources/WebResources/banners/rightBanner/right4.jpg'),
+(5,3,'WebResources/WebResources/banners/rightBanner/right5.jpg'),
+(1,4,'WebResources/WebResources/companys.png'),
+(1,5,'WebResources/WebResources/world-map.png'),
+(1,6,'WebResources/WebResources/qq.png');
