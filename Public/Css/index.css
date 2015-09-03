@@ -1,0 +1,147 @@
+/**********************地圖**********************/
+#x-content-band-1{
+	margin-top:-70px!important;
+	background-color:#ff423d;
+	background-position-y:top;
+	min-height:440px; 
+	padding-top:135px;
+	padding-bottom:30px;
+	height:600px;
+	background-image:url(../src/map.png);
+}
+
+.x-content-band.bg-imgae{
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.man{
+	margin:0!important;
+}
+
+h1{
+	color:#fff!important;
+	text-shadow:none;
+	line-height: 65px;
+	
+	letter-spacing:5px; 
+}
+
+h3{
+	color:#fff!important;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-shadow:none;
+	font-weight: normal;
+	font-size:22px;
+	line-height: 27px;
+}
+
+
+
+.comp-1{
+	font-family: "LiSu" ! important;
+	font-weight:800;
+	font-size:50px;
+	margin-top: 20px;
+}
+
+.comp-2{
+	font-weight:800;
+	font-size:50px;
+	font-family: "LiSu" ! important;
+}
+
+.comp-3{
+	font-weight:800;
+	font-size:50px;
+	margin-bottom:30px;
+	font-family: "LiSu" ! important;
+}
+
+.quanquan{
+	height:300px;
+	width:500px;
+	margin-bottom:30px;
+}
+/**********************地圖**********************/
+
+/**********************公司介绍**********************/
+.x-company{
+	margin-top:-100px;
+}
+
+.x-company ul{
+	list-style: none;
+}
+
+.x-company ul li{
+	color:#333333;
+	border:3px solid #333333;
+	display:block;
+	width:850px;
+	height:350px;
+	background-color:#fff;
+	margin:0 auto;
+	margin-top:-2px;
+}
+
+.company-image{
+	float:left;
+	height:350px;
+	width:350px;
+	background-color:#fff;
+	display:block;
+}
+
+.company-part{
+
+	float:left;
+	height:350px;
+	width:498px;
+	background-color:#CCCCCC;
+}
+
+.company-part h2,.company-part .text{
+	margin-left:30px;
+	margin-right:30px;
+	color:#333333;
+}
+
+.company-part h2{
+	margin-bottom:0;
+}
+
+.company-part .text{
+	margin-top:50px;
+}
+
+/*******************************************/
+
+
+/******************合作伙伴*****************/
+.x-partner{
+	margin:500 auto;
+}
+.x-partner h2{
+	margin-top:80px;
+	text-align:center;
+	font-size:48px;
+	font-weight:100;
+	letter-spacing:5px;
+}
+
+.x-partner p{
+	text-align: center;
+}
+
+.x-partner img{
+	text-align:center;
+	margin:0 auto;
+	height:60%;
+	width:60%;
+}
+
+/******************合作伙伴*****************/
+
+ul li im

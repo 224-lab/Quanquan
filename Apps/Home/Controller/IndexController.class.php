@@ -4,9 +4,18 @@ use Think\Controller;
 class IndexController extends Controller{
     public function index(){
 //     	$this->display('')
-        $Data     = M('Data');// 实例化Data数据模型
-        $result     = $Data->find(2);
-        $this->assign('result',$result);
+        $Banner     = M('Banner');// 实例化Data数据模型
+        $topBanner   = $Banner->where('flag=1')->select();
+        $indexMap = 'WebResources/world-map.png';
+        $coCompany = 'WebResources/companys.png';
+        $quanquanCompanys = 'WebResources/qq.png';
+        $width = $Banner->where('flag=1')->count();
+        $width = 100/$width;
+        $this->assign('bannerImg',$topBanner);
+        $this->assign('background',$indexMap);
+        $this->assign('coCompany',$coCompany);
+        $this->assign('companys',$quanquanCompanys);
+        $this->assign('bannerWidth',$width);
         $this->display();
     }
    
