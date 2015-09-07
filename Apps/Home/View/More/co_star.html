@@ -1,0 +1,34 @@
+<load href='__PUBLIC__/Css/photos_t.css' />
+<load href='__PUBLIC__/Css/photos.css' />
+<load href='__PUBLIC__/Js/mootools-core2.js' />
+<load href='__PUBLIC__/Js/mediabox2.js' />
+<div class="bb-main" role="main">
+  <!--效果开始-->
+  <div class="mod_gallerylist">
+	<volist name="list" id="vo">
+	    <div class="layout_default">
+	      <p class="info"><span class="date"></span> <span class="author"></span></p>
+	      <div class="image_container">
+	      <a href="{$vo.photo_url}" rel="lightbox[ostec]" title="{$vo.photo_title}"> <img src="{$vo.photo_url}"> </a>
+	      </div>
+	      <div class="meta"></div>
+	    </div>
+	</volist>
+  </div>
+  <script type="text/javascript">
+
+  Mediabox.scanPage = function() {
+    var links = $$("a").filter(function(el) {
+      return el.rel && el.rel.test(/^lightbox/i);
+    });
+    $$(links).mediabox({$l=1/*thinkphp 竟然把空的數組過濾掉了!!!!!!!*/}, null, function(el) {
+      var rel0 = this.rel.replace(/[[]|]/gi," ");
+      var relsize = rel0.split(" ");
+      return (this == el) || ((this.rel.length > 8) && el.rel.match(relsize[1]));
+    });
+  };
+  window.addEvent("domready", Mediabox.scanPage);
+  </script>
+  <!--End-->
+
+</div>

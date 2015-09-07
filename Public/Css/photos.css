@@ -1,0 +1,85 @@
+
+/**********************照片展示****************************/
+
+.b-main{
+	margin:0 auto;
+	padding:50px;
+	height:600px;
+	background-image:url('../src/bk/photo-bk.jpg');
+	background-size:100% auto;
+	background-repeat: no-repeat;
+}
+
+
+.bb-main{
+	padding:50px;
+	height:600px;
+	background-image:url('../src/bk/co-star-bk.jpg');
+	background-size:100% auto;
+	background-repeat: no-repeat;
+}
+.bb-main .mod_gallerylist{
+	float:right;
+	width:600px;
+}
+
+.bb-main .layout_default{
+	width:120px;
+	height:50px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:80px;
+}
+
+.meta a{
+	color:#FFF;
+}
+
+.ball{
+	position:relative;
+	background-image:url('../src/bk/photo-bk.png');
+	background-size: cover;
+	height:500px;
+	width:500px; 
+	margin:0 auto;
+}
+
+#righttop{
+	position:relative;
+	left:245px;
+}
+
+#lefttop{
+	position:relative;
+	right:130px;
+}
+
+#rightbottom{
+	position:relative;
+	left:445px;
+	top:90px;
+}
+
+#leftbottom{
+	position:relative;
+	right:330px;
+	top:230px;
+}
+
+#middle{
+	position:relative;
+	left:150px;
+	top:45px;
+}
+
+.b-main .wall{
+	text-align: center;
+	height:600px;
+	width:419px;
+	margin:0 auto;
+}
+
+.wall-content{
+	margin:0 auto;
+	width:419px;
+}

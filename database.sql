@@ -43,7 +43,23 @@ CREATE TABLE IF NOT EXISTS `quanquan_co_stars`(
 PRIMARY KEY (`id`)
 )ENGINE=MyISAM DEFAULT CHARSET="utf8";
 
-
+INSERT INTO `quanquan_co_stars`(`photo_index`, `photo_title`, `photo_url`) VALUES
+('1','NI','#'),
+('2','黄秋生','#'),
+('3','李东田','#'),
+('4','钟丽缇','#'),
+('5','张柏芝','#'),
+('6','徐若瑄','#'),
+('7','吴君如','#'),
+('8','齐秦','#'),
+('9','黄晓明','#'),
+('10','吴宗宪','#'),
+('11','任贤齐','#'),
+('12','SHE','#'),
+('13','张曼玉','#'),
+('14','Jay','#'),
+('15','黄义达','#'),
+('16','吴宗宪2','#');
 
 
 
