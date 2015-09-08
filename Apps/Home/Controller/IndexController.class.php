@@ -29,4 +29,13 @@ class IndexController extends Controller{
 		$this->assign('title',$title);
 		$this->display();
 	}
+	
+	public function business(){
+		$content = M('business');
+		$list = $content->limit(3)->select();
+		$title = '公司介紹';
+		$this->assign('title',$title);
+		$this->assign('list',$list);
+		$this->display();
+	}
 }

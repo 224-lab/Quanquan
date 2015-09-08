@@ -9,6 +9,7 @@
 							</p>
 								<h3 style="text-align:center">
 							Some people hear their own inner voices with great clearness. And they live by what they hear.Such people become crazy, or they become legends ...
+							<br/>
 						</h3>
 					</div>
 				</div>
@@ -16,16 +17,16 @@
 				<div class="banner">
 					<ul>
 						<volist name="bannerImg" id="vo">
-							<li style="width:{$bannerWidth}%;">
-								<img src="__PUBLIC__/{$vo.banner_image_url}" />
+							<li style="background-image:url(__PUBLIC__/{$vo.banner_image_url});background-size:100% 100%">
 							</li>
 						</volist>
 					</ul>
 				</div>
 
-				<div class="x-partner">
+				<div class="x-partner" >
 					<div class="pat-pic">
 						<p><img src="__PUBLIC__/{$coCompany}"/><p>
+
 					</div>
 				</div>
 			</div>
@@ -39,6 +40,5 @@
 			        //  Either do unslider.data('unslider').next() or .prev() depending on the className
 			        unslider.data('unslider')[fn]();
 			    });
-			 
 			</script>
 

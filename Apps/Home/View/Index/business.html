@@ -1,10 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="x-business">
+	<ul>
+		<volist name="list" id="vo">
+		<li>
+			<if condition="$vo.index%2 eq 0">
+				<div class="business-image">
+					<img src="__PUBLIC__/{$vo.company}" />
+				</div>
+				<div class="business-part">
+					<h2 class="business-title">
+						<img src="__PUBLIC/{$vo.title_image}" />
+					</h2>
+					<h4 class="birth">——始於{$vo.birthday}年</h4>
+					<HR style="FILTER: alpha(opacity = 100, finishopacity = 0, style = 3)" width="90%" color=#333333 SIZE=2>
+					<div class="text">{$vo.description}</div>
+				</div>
+			<else />
+				<div class="business-part">
+					<h2 class="business-title">
+						<img src="__PUBLIC/{$vo.title_image}" />
+					</h2>
+					<h4 class="birth">——始於{$vo.birthday}年</h4>
+					<HR style="FILTER: alpha(opacity = 100, finishopacity = 0, style = 3)" width="90%" color=#333333 SIZE=2>
+					<div class="text">{$vo.description}</div>
+				</div>
+				<div class="business-image">
+					<img src="__PUBLIC__/{$vo.company}" />
+				</div>
+			</if>
+		</li>
+		</volist>
+	</ul>
+				</div>

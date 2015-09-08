@@ -152,3 +152,18 @@ INSERT INTO `quanquan_banner`(`index`,`flag`,`banner_image_url`)VALUES
 (1,4,'WebResources/companys.png'),
 (1,5,'WebResources/world-map.png'),
 (1,6,'WebResources/qq.png');
+
+CREATE TABLE IF NOT EXISTS `quanquan_business`(
+`id`int(8)unsigned NOT NULL AUTO_INCREMENT,
+`index`int(8)unsigned NOT NULL,
+`title_image`varchar(255) NOT NULL,
+`company_image`varchar(255) NOT NULL,
+`birthday`varchar(8) NOT NULL,
+`description`varchar(255) NOT NULL,
+PRIMARY KEY(`id`)
+)ENGINE=MyISAM DEFAULT CHARSET="utf8";
+
+INSERT INTO `quanquan_business`(`index`,`title_image`,`company_image`,`birthday`,`description`)VALUES
+(1,'WebResources/business/h1.png','WebResources/business/font1.jpg','2001','签约艺人，新品推广，企业策划，公司年会<br>演出嘉宾（中外），礼仪模特（中外）<br>场地租赁，现场布置，舞美设计<br>灯光音响租赁'),
+(2,'WebResources/business/h2.png','WebResources/business/font2.jpg','2007','影视制作，广告拍摄，后期制作，项目筹备<br>两岸四地、欧美、日韩艺人经纪<br>招募主办赛事，新人包装'),
+(3,'WebResources/business/h3.png','WebResources/business/font3.jpg','2013','网站制作，app制作<br>代理 < 电台、电视台、网络媒体、报刊杂志 ><br> 等一系列信息类媒体<br>媒体招商，电竞项目，代言代理电脑网络游戏<br>'),
