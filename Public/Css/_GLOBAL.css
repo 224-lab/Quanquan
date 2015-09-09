@@ -307,11 +307,6 @@ li{
 	list-style:none;
 }
 
-*{
-	margin:0;
-	padding:0;
-}
-
 .banner .dots{
 	position:absolute;
 	left:0;

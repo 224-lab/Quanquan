@@ -1,0 +1,82 @@
+/**********************业务介绍****************************/
+
+#page-wrapper{
+	background-image:url('../src/bk/business-bk.jpg');
+	background-size:100% 100%;
+}
+
+.b-main{
+	width:100%;
+}
+
+.business-title img{
+	position:absolute;
+	margin:0;
+}
+
+
+.x-business ul{
+	margin-top:100px;
+	list-style: none;
+	margin-bottom:100px;
+}
+
+.x-business ul li{
+	color:#333333;
+	border:3px solid #333333;
+	display:block;
+	width:636px;
+	height:260px;
+	background-color:#fff;
+	margin:0 auto;
+	margin-top:-2px;
+}
+
+.business-image{
+	float:left;
+	height:260px;
+	width:260px;
+	background-color:#fff;
+	display:block;
+}
+
+.business-part{
+
+	float:left;
+	height:260px;
+	width:374px;
+	background-color:#CCCCCC;
+}
+
+.business-part h2,.business-part .text{
+	margin-left:16px;
+	color:#333333;
+	width:100%;
+	float:left;
+}
+
+.birth{
+	font-size:13px;
+	float:right;
+	margin-top:20px;
+	margin-bottom:5px;
+	margin-left:10px;
+	padding-right:15px;
+}
+
+.business-part h2{
+	margin-bottom:0;
+}
+
+.business-part .text{
+	margin-top:40px;
+	font-size:15px;
+}
+
+/**********************业务介绍****************************/
+
+.b-main img{
+	position:absolute;
+	height:260px;
+	margin:0;
+}
