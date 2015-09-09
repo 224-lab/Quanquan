@@ -3,7 +3,7 @@
 	<ul>
 		<volist name="list" id="vo">
 		<li>
-			<if condition="$vo.index%2 eq 0">
+			<if condition="$vo['index']%2 eq 1">
 				<div class="business-image" style="border-right:2px solid #333333">
 					<img src="__PUBLIC__/{$vo.company_image}" />
 				</div>
