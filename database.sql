@@ -4,15 +4,25 @@ CREATE TABLE IF NOT EXISTS `quanquan_photos`(
 `photo_href`varchar(255) NOT NULL,
 `phpto_album`varchar(50) NOT NULL,
 `photo_title`varchar(255) NOT NULL,
+`groupid`int(8)unsigned NOT NULL,
+`index`int(8)unsigned NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET="utf8";
 
 /*Photos_insert*/
-INSERT INTO `quanquan_photos`(`photo_href`,`phpto_album`,`photo_title`) VALUES
-('href1','全权影视','叶问'),
-('href2','全权影视','河东狮吼'),
-('href3','全权影视','如果·爱'),
-('href4','全权影视','白领公寓');
+INSERT INTO `quanquan_photos`(`photo_href`,`phpto_album`,`photo_title`,`groupid`,`index`) VALUES
+('WebResources/photos/movies/1.jpg','全权影视','叶问','1','1'),
+('WebResources/photos/movies/2.jpg','全权影视','河东狮吼','1','2'),
+('WebResources/photos/movies/3.jpg','全权影视','如果·爱','1','3'),
+('WebResources/photos/movies/4.jpg','全权影视','白领公寓','1','4'),
+('WebResources/photos/movies/5.jpg','全权影视','德累斯顿大轰炸','1','5'),
+('WebResources/photos/movies/6.jpg','全权影视','投名状','1','6'),
+('WebResources/photos/movies/7.jpg','全权影视','后天','1','7'),
+('WebResources/photos/movies/8.jpg','全权影视','白鹤功夫传','1','8');
+('WebResources/photos/movies/8.jpg','全权影视','白鹤功夫传','2','1');
+('WebResources/photos/movies/8.jpg','全权影视','白鹤功夫传','3','1');
+('WebResources/photos/movies/8.jpg','全权影视','白鹤功夫传','4','1');
+('WebResources/photos/movies/8.jpg','全权影视','白鹤功夫传','5','1');
 
 
 
@@ -166,4 +176,4 @@ PRIMARY KEY(`id`)
 INSERT INTO `quanquan_business`(`index`,`title_image`,`company_image`,`birthday`,`description`)VALUES
 (1,'WebResources/business/h1.png','WebResources/business/font1.jpg','2001','签约艺人，新品推广，企业策划，公司年会<br>演出嘉宾（中外），礼仪模特（中外）<br>场地租赁，现场布置，舞美设计<br>灯光音响租赁'),
 (2,'WebResources/business/h2.png','WebResources/business/font2.jpg','2007','影视制作，广告拍摄，后期制作，项目筹备<br>两岸四地、欧美、日韩艺人经纪<br>招募主办赛事，新人包装'),
-(3,'WebResources/business/h3.png','WebResources/business/font3.jpg','2013','网站制作，app制作<br>代理 < 电台、电视台、网络媒体、报刊杂志 ><br> 等一系列信息类媒体<br>媒体招商，电竞项目，代言代理电脑网络游戏<br>'),
+(3,'WebResources/business/h3.png','WebResources/business/font3.jpg','2013','网站制作，app制作<br>代理 < 电台、电视台、网络媒体、报刊杂志 ><br> 等一系列信息类媒体<br>媒体招商，电竞项目，代言代理电脑网络游戏<br>');

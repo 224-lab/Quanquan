@@ -1,0 +1,92 @@
+<load href='__PUBLIC__/Css/photos_t.css' />
+<load href='__PUBLIC__/Css/photos.css' />
+<load href='__PUBLIC__/Js/mootools-core2.js' />
+<load href='__PUBLIC__/Js/mediabox2.js' />
+
+<div class="b-main" role="main">
+	<div class="ball">
+		<div class="mod_gallerylist">
+			<volist name="groups" id="g" key="i">
+			
+			<div class="layout_default" id="{$position[$i]}">
+				<p class="info">
+					<span class="date"></span> <span class="author"></span>
+				</p>
+				<div class="image_container">
+					<volist name="$g" id="vo" key="k">
+						<p class="info">
+							<span class="date"></span> <span class="author"></span>
+						</p>
+						<a href="{$vo.photo_href}" rel="lightbox{$i}[ostec]"
+							title="{$vo.photo_title}"> <if condition="$vo.index eq 1">
+							<img src="__PUBLIC__/WebResources/photos/album_back.jpg"></if>
+						</a>
+					
+				 	</volist>
+				</div>
+			</div>
+			</volist>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+  Mediabox.scanPage = function() {
+    // ++++++++++++++++++++��һ�����+++++++++++++++++++++++++++++++++++++
+    var links = $$("a").filter(
+      function(el) {  //filter�����лص�����
+        // test����:ȫ�ļ��lighbox1(����һ�����) 
+        return el.rel && el.rel.test(/^lightbox1/i);
+      });
+    //mediabox�����������һ�����
+    $$(links).mediabox({$fangtun = true/* Put custom options here */}, null, function(el) {
+      var rel0 = this.rel.replace(/[[]|]/gi," ");
+      var relsize = rel0.split(" ");
+      return (this == el) || ((this.rel.length > 8) && el.rel.match(relsize[1]));
+    });
+
+    // ++++++++++++++++++++++�ڶ������++++++++++++++++++++++++++++++++++++
+    var links2 = $$("a").filter(function(el) {
+      // test����:ȫ�ļ��lighbox1(���ڶ������), �Դ�����
+      return el.rel && el.rel.test(/^lightbox2/i);
+    });
+    $$(links2).mediabox({$fangtun = true/* Put custom options here */}, null, function(el) {
+      var rel0 = this.rel.replace(/[[]|]/gi," ");
+      var relsize = rel0.split(" ");
+      return (this == el) || ((this.rel.length > 8) && el.rel.match(relsize[1]));
+    });
+    // ++++++++++++++++++++++�ڶ������++++++++++++++++++++++++++++++++++++
+    var links3 = $$("a").filter(function(el) {
+      // test����:ȫ�ļ��lighbox1(���ڶ������), �Դ�����
+      return el.rel && el.rel.test(/^lightbox3/i);
+    });
+    $$(links3).mediabox({$fangtun = true/* Put custom options here */}, null, function(el) {
+      var rel0 = this.rel.replace(/[[]|]/gi," ");
+      var relsize = rel0.split(" ");
+      return (this == el) || ((this.rel.length > 8) && el.rel.match(relsize[1]));
+    });
+
+    // ++++++++++++++++++++++�ڶ������++++++++++++++++++++++++++++++++++++
+    var links4 = $$("a").filter(function(el) {
+      // test����:ȫ�ļ��lighbox1(���ڶ������), �Դ�����
+      return el.rel && el.rel.test(/^lightbox4/i);
+    });
+    $$(links4).mediabox({$fangtun = true/* Put custom options here */}, null, function(el) {
+      var rel0 = this.rel.replace(/[[]|]/gi," ");
+      var relsize = rel0.split(" ");
+      return (this == el) || ((this.rel.length > 8) && el.rel.match(relsize[1]));
+    });
+
+    // ++++++++++++++++++++++�ڶ������++++++++++++++++++++++++++++++++++++
+    var links5 = $$("a").filter(function(el) {
+      // test����:ȫ�ļ��lighbox1(���ڶ������), �Դ�����
+      return el.rel && el.rel.test(/^lightbox5/i);
+    });
+    $$(links5).mediabox({$fangtun = true/* Put custom options here */}, null, function(el) {
+      var rel0 = this.rel.replace(/[[]|]/gi," ");
+      var relsize = rel0.split(" ");
+      return (this == el) || ((this.rel.length > 8) && el.rel.match(relsize[1]));
+    });
+  };
+  window.addEvent("domready", Mediabox.scanPage);  //����
+</script>

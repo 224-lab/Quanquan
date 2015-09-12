@@ -29,7 +29,7 @@ class MoreController extends Controller{
             $tmp_name = $_FILES['upfile']['tmp_name'];
             $file = $_FILES["upfile"];  //上傳文件名稱
             //C('__PUBLIC__')爲 /Quanquan/Public
-            move_uploaded_file($tmp_name, 'Public/WebResources/co_star/'.$file['name']);  //將上傳文件移動到指定目錄
+            move_uploaded_file($tmp_name, 'Public/WebResources/co_star/'.$file['name']);  //將上傳文件移動到指定目錄待解壓
 
             if($file['name']){
                 unlink($star['photo_url']);

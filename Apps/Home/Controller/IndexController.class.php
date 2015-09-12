@@ -18,8 +18,39 @@ class IndexController extends Controller{
         $this->assign('bannerWidth',$width);
         $this->display();
     }
-   
     //photos
+    public function photos(){
+        $photos = M('Photos');
+        $group1 = $photos->where('groupid=1')->select();
+        $group2 = $photos->where('groupid=2')->select();
+        $group3 = $photos->where('groupid=3')->select();
+        $group4 = $photos->where('groupid=4')->select();
+        $group5 = $photos->where('groupid=5')->select();
+        $groups = array(
+            1=>'group1',
+            2=>'group2',
+            3=>'group3',
+            4=>'group4',
+            5=>'group5'
+        );
+        $position = array(
+            1=>'lefttop',
+            2=>'righttop',
+            3=>'middle',
+            4=>'leftbottom',
+            5=>'rightbottom'
+        );
+        $this->assign('position',$position);
+        $this->assign('groups',$groups);
+        $this->assign('group1',$group1);
+        $this->assign('group2',$group2);
+        $this->assign('group3',$group3);
+        $this->assign('group4',$group4);
+        $this->assign('group5',$group5);
+        $this->display();
+    }
+   
+    //artists
 	public function artists(){
 		$Form = M('Artists');
 		//读取数据

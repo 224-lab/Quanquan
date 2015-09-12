@@ -1,4 +1,5 @@
 
+
 /**********************照片展示****************************/
 
 .b-main{
@@ -82,4 +83,43 @@
 .wall-content{
 	margin:0 auto;
 	width:419px;
+}
+
+/*************************banner********************************/
+
+.banner{
+	position:relative;
+	overflow:auto;
+	width:200px;
+	height:300px;
+	float:left;
+	display:block;
+}
+
+.banner ul li{
+	margin:0;
+	padding:0;
+	height:415px;
+	float:left;
+}
+
+.banner ul{
+	list-style:none;
+}
+
+
+.banner .dots .active{
+	background-color:#fff;
+}
+
+.floatLeft{
+	position:absolute;
+	top:150px;
+	left:50px;
+}
+
+.floatRight{
+	position:absolute;
+	top:150px;
+	right:50px;
 }

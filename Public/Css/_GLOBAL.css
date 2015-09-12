@@ -172,6 +172,11 @@ li{
   color:#FFFF55;
   font-weight:600;
 }
+*{
+	margin:0;
+	padding:0;
+}
+
 .more:after {
   content: "\f103";
   margin-left: 0.35em;
