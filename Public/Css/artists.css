@@ -315,6 +315,9 @@ header {
 /* ------------------------------------------
   SECTION CONTENT STYLES
 --------------------------------------------- */
+.b-main{
+  margin-top: 70px;   /*fix for hearder height*/
+}
 .starContent{
   /*
   background: -moz-linear-gradient(top, white, pink);
@@ -340,7 +343,7 @@ header {
 
 .starName, .starIntro{
   position:relative;
-  top:-300px;
+  top:-340px;
   left:600px;
   text-align:left;
 }
@@ -364,8 +367,8 @@ header {
 .fuckpng{
     width:400px;
   position:relative;
-    top:-240px;
-  left:580px;
+    top:-320px;
+  left:600px;
 }
 .fuckpng img{
     margin-right:5%;
