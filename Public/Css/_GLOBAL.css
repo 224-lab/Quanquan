@@ -266,13 +266,17 @@ li{
 
 .x-column-2{
 	margin-top:80px;
-	width:65%;
+	width:60%;
 	float:left;
 }
 
 .x-column-3{
 	margin-top:80px;
 	float:left;
+}
+
+.x-column-3 li{
+	width:200px;
 }
 
 .x-bottom{
@@ -332,4 +336,51 @@ li{
 
 .banner .dots .active{
 	background-color:#fff;
+}
+
+.sprite_weixin, .sprite_qqzone, .sprite_linkedin, .sprite_weibo, .sprite_news{
+	float:left;
+	margin-top:4px;
+	margin-right:5px;
+	display:block;
+}
+
+.sprite_weixin{
+	background: url('../WebResources/icons.png') no-repeat -4px -1612px;
+	width: 32px;
+	height: 32px;
+}
+.sprite_weixin:hover .QR_code{
+	display: block;
+}
+.QR_code {
+	background: url('../WebResources/qrcode.jpg') no-repeat;
+	width: 146px;
+	height: 146px;
+	padding: 20px;
+	border: 1px solid #d1d2d6;
+	position: relative;
+	top:-200px;
+	right:0px;
+	display:none;
+}
+.sprite_qqzone{
+	background: url('../WebResources/icons.png') no-repeat -4px -52px;
+	width: 32px;
+	height: 31px;
+}
+.sprite_linkedin{
+	background: url('../WebResources/icons.png') no-repeat -4px -1664px;
+	width: 32px;
+	height: 32px;
+}
+.sprite_weibo{
+	background: url('../WebResources/icons.png') no-repeat -4px -104px;
+	width: 32px;
+	height: 32px;
+}
+.sprite_news{
+	background: url('../WebResources/icons.png') no-repeat -1px -3058px;
+	width: 38px;
+	height: 48px;
 }
