@@ -10,12 +10,6 @@ class MoreController extends Controller{
 		$this->display();
 	}
 
-    function upload(){
-        $tmp_name = $_FILES['upfile']['tmp_name'];
-        $file = $_FILES["upfile"];  //上傳文件名稱
-        move_uploaded_file($tmp_name,'tmp/'.$file['name']);  //將上傳文件移動到指定目錄待解壓
-
-    }
     public function co_star_edit(){
         if($_POST['submit'] and $_POST['index']!=""){
             $Stars = M('Co_stars');

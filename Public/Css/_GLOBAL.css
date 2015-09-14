@@ -354,15 +354,19 @@ li{
 	display: block;
 }
 .QR_code {
-	background: url('../WebResources/qrcode.jpg') no-repeat;
+	//background: url('../WebResources/qrcode.jpg') no-repeat;
 	width: 146px;
 	height: 146px;
-	padding: 20px;
+	padding: 10px;
 	border: 1px solid #d1d2d6;
 	position: relative;
-	top:-200px;
+	top:-180px;
 	right:0px;
 	display:none;
+}
+.QR_code img{
+	width: 146px;
+	height: 146px;
 }
 .sprite_qqzone{
 	background: url('../WebResources/icons.png') no-repeat -4px -52px;
